@@ -1,0 +1,257 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Battle Balls</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>600</maxFrames>
+<username>hdiesl</username>
+
+<hud>
+	<xpos>30</xpos>
+	<ypos>90</ypos>
+	<debug>false</debug>
+	<barthick>10</barthick>
+	<textcolor>
+		<red>255</red>
+  		<green>0</green>
+  		<blue>0</blue>
+  		<alpha>0</alpha>
+	</textcolor>
+	<p1color>
+		<red>255</red>
+  		<green>0</green>
+  		<blue>0</blue>
+  		<alpha>0</alpha>
+	</p1color>
+	<p2color>
+		<red>0</red>
+ 		<green>0</green>
+ 		<blue>255</blue>
+  		<alpha>0</alpha>
+	</p2color>
+</hud>
+
+<menu>
+  <width>800</width>
+  <height>600</height>
+  <noOfOptions>4</noOfOptions>
+  <loc x="0" y="0"/>
+  <optionLoc x="300" y="100" />
+  <color r="193" g="205" b="205" a="255"/>
+  <option0>Return to Game</option0>
+  <option1>Toggle God Mode (P1 ONLY)</option1>
+  <option2>Toggle P1 AI</option2>
+  <option3>Toggle P2 AI</option3>
+  <spaces>70</spaces>
+</menu>
+
+<clickOn>
+  <file>assets/clickon.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</clickOn>
+
+<clickOff>
+  <file>assets/clickoff.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</clickOff>
+
+<view>
+  <width>800</width>
+  <height>600</height>
+</view>
+
+<world>
+  <width>800</width>
+  <height>600</height>
+</world>
+
+<Playworld>
+  <width>800</width>
+  <height>600</height>aad
+</Playworld>
+
+<numberOfLights>1</numberOfLights>
+<lightSpec lightX1="400" lightY1="100" lightZ1="200" />
+<!-- larger noneffectiveLighting the smaller the radius of the light -->
+<noneffectiveLighting>50000</noneffectiveLighting>
+<ambientLighting>10000</ambientLighting>
+<brightness>25000000</brightness>
+<diffuseGrid>
+   <x>6</x>
+   <y>6</y>
+</diffuseGrid>
+
+<background>
+  <file>assets/background.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</background>
+
+<platform>
+  <file>assets/platform.png</file>
+  <startLoc x="150" y="400"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</platform>
+
+<center>
+  <file>assets/platform.png</file>
+  <startLoc x="150" y="400"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</center>
+
+
+<general>
+	<lives>3</lives>
+        <platCnt>12</platCnt>
+	<platPos>
+		<x0>0</x0>
+		<y0>515</y0>
+
+		<x1>100</x1>
+		<y1>515</y1>
+
+		<x2>200</x2>
+		<y2>515</y2>
+
+		<x3>300</x3>
+		<y3>515</y3>
+
+		<x4>400</x4>
+		<y4>515</y4>
+
+		<x5>500</x5>
+		<y5>515</y5>
+
+		<x6>600</x6>
+		<y6>515</y6>
+
+		<x7>700</x7>
+		<y7>515</y7>
+
+		<x8>430</x8>
+		<y8>280</y8>
+
+		<x9>270</x9>
+		<y9>420</y9>
+
+		<x10>150</x10>
+		<y10>200</y10>
+
+		<x11>530</x11>
+		<y11>380</y11>
+	</platPos>
+
+	<aiDelay>20</aiDelay>
+	<dist>200</dist>
+</general>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<Player1>
+  <file>assets/ball_r.png</file>
+  <startLoc x="150" y="400"/>
+  <frames>4</frames>
+  <imageWidth>64</imageWidth>
+  <imageHeight>64</imageHeight>
+  <frameInterval>40</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <chunk>
+	<size>10</size>
+	<distance>200</distance>
+  </chunk>
+  <transparency>false</transparency>
+</Player1>
+
+<Player2>
+  <file>assets/ball_b.png</file>
+  <startLoc x="500" y="400"/>
+  <frames>4</frames>
+  <imageWidth>64</imageWidth>
+  <imageHeight>64</imageHeight>
+  <frameInterval>40</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <chunk>
+	<size>10</size>
+	<distance>200</distance>
+  </chunk>
+  <transparency>false</transparency>
+</Player2>
+
+<blue>
+  <file>assets/arrow.png</file>
+  <startLoc x="0" y="0"/>
+  <frames>8</frames>
+  <imageWidth>24</imageWidth>
+  <imageHeight>24</imageHeight>
+  <frameInterval>30</frameInterval>
+  <speedX>600</speedX>
+  <speedY>600</speedY>
+  <transparency>false</transparency>
+  <speed>6</speed>
+  <chunk>
+	<size>20</size>
+	<distance>200</distance>
+  </chunk>
+  <interval>15</interval>
+</blue>
+
+<red>
+  <file>assets/arrow.png</file>
+  <startLoc x="0" y="0"/>
+  <frames>8</frames>
+  <imageWidth>24</imageWidth>
+  <imageHeight>24</imageHeight>
+  <frameInterval>30</frameInterval>
+  <speedX>600</speedX>
+  <speedY>600</speedY>
+  <transparency>false</transparency>
+  <speed>6</speed>
+  <chunk>
+	<size>20</size>
+	<distance>200</distance>
+  </chunk>
+  <interval>15</interval>
+</red>
+
+<bow>
+  <file>assets/launcher.png</file>
+  <startLoc x="0" y="0"/>
+  <frames>8</frames>
+  <imageWidth>48</imageWidth>
+  <imageHeight>48</imageHeight>
+  <frameInterval>40</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <chunk>
+	<size>10</size>
+	<distance>200</distance>
+  </chunk>
+  <transparency>false</transparency>
+</bow>
+
+
+</GameData>

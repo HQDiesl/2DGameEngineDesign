@@ -1,0 +1,37 @@
+Harrison Diesl, 2018
+Framework by Brian Malloy, Chris Malloy, and Sean Kelly
+
+INSTRUCTIONS TO COMPILE AND RUN
+
+This game is run in a linux OS and requires SDL.
+Once downloaded, run the make command in the tracker folder.
+Once finished, simply use ./run
+
+
+BATTLE BALLS
+
+Controls
+
+Menu
+	Open/Close - M
+	Up - Up arrow
+	Down - Down arrow
+	Enter - Enter
+
+Player 1
+	Shift - Shoot
+	UP - W
+	DOWN - S 
+	LEFT - A
+	RIGHT - D
+	Angle Up - Q
+	Angle Down - E
+
+Player 2
+	Space - Shoot
+	UP - I
+	DOWN - K 
+	LEFT - J
+	RIGHT - L
+	Angle Up - U
+	Angle Down - O
